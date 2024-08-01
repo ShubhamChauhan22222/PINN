@@ -24,7 +24,7 @@ For classifying gravitational lenses into three types (no lensing, vortex, and h
 𝑘
 k to correct potential distortions.
 
-Implementation Steps:
+Implementation Steps
 Define the lens equation:
 𝛽
 =
@@ -102,5 +102,5 @@ features
 𝐶
 C. This vector is then processed through three neural layers to classify the lenses.
 
-Results
+Notebook
 You can find the detailed implementation and results of this approach in the following Jupyter notebook: PINN Approach 2
