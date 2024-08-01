@@ -35,15 +35,12 @@ For classifying gravitational lenses into three types (no lensing, vortex, and h
 #### Implementation Steps
 
 1. Define the lens equation:
-    \[
-    \beta = \theta - \alpha
-    \]
-    where \( \beta \) is the apparent position of the source, \( \theta \) is the observed position, and \( \alpha \) is the deflection angle.
+    β=θ−α
+    where β is the apparent position of the source, θ is the observed position, and α is the deflection angle.
 2. Incorporate the mass distribution due to galaxies and dark matter:
-    \[
-    \beta + cX = \theta - kr^2
-    \]
-3. Utilize feature vectors \( \theta \) and \( k \) from ResNet-18.
+    β+cX=θ−kr^2
+
+3. Utilize feature vectors θ and k from ResNet-18.
 4. Apply three neural layers on the resulting vector to extract features for lens classification.
 
 ### Results
@@ -56,11 +53,10 @@ You can find the detailed implementation and results of this approach in the fol
 
 ### Approach 2
 
-In this approach, the original image vector \( I \) represents \( \theta \). Another feature vector \( k \) from ResNet-18 is used as follows:
-\[
-C = I - B_{\text{features}} \cdot r^2
-\]
-A concatenated feature vector \( D \) is formed from another ResNet-18 feature vector \( A_{\text{features}} \) and \( C \). This vector is then processed through three neural layers to classify the lenses.
+In this approach, the original image vector I represents θ. Another feature vector k from ResNet-18 is used as follows:
+C=I−B(features)⋅r^2
+A concatenated feature vector **D** is formed from another ResNet-18 feature vector A 
+features and C . This vector is then processed through three neural layers to classify the lenses.
 
 ### Notebook
 
