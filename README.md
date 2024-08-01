@@ -19,7 +19,7 @@ I utilized ResNet-18 for this task due to its ability to capture intricate patte
 The model achieved an ROC-AUC score of 0.99 on the test data.
 
 
-<img src="ROC-AUC Curve\ResNet18.png" alt="ROC-AUC" width="800"/>
+<img src="ROC-AUC Curve\ResNet18.png" alt="ROC-AUC" width="400"/>
 
 
 ### Notebook
@@ -52,7 +52,7 @@ For classifying gravitational lenses into three types (no lensing, vortex, and h
 The model achieved an ROC-AUC score of 0.92 on the test data.
 
 
-<img src="ROC-AUC Curve\approach_1.png" alt="ROC-AUC" width="800"/>
+<img src="ROC-AUC Curve\approach_1.png" alt="ROC-AUC" width="400"/>
 
 
 ### Notebook
@@ -66,7 +66,7 @@ C=I−B(features)⋅r^2
 A concatenated feature vector **D** is formed from another ResNet-18 feature vector A 
 features and C . This vector is then processed through three neural layers to classify the lenses.
 
-<img src="ROC-AUC Curve\approach_1.png" alt="ROC-AUC" width="800"/>
+<img src="ROC-AUC Curve\approach_1.png" alt="ROC-AUC" width="400"/>
 
 
 ### Notebook
