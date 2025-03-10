@@ -4,6 +4,9 @@
 
 This repository contains the implementation of two models for classifying images of gravitational lenses using PyTorch. The first model employs a standard ResNet-18 architecture, while the second model enhances the ResNet-18 with a physics-informed neural network (PINN) that incorporates the gravitational lensing equation.
 
+
+NOTE: You can find the detailed implementation of Self-supervised learning in this repo: [SSL_results](https://github.com/ShubhamChauhan22222/DeepLense_SSL)
+
 ## Common Test: Multi-Class Classification
 
 ### Task
